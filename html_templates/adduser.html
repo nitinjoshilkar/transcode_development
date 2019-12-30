@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form method="post">
+	{% csrf_token %}
+    <label for="username">username: </label>
+    <input id="username" type="text" name="username"><br>
+    <label for="password">password: </label>
+    <input id="password" type="password" name="password"><br>
+    <label for="firstname">first name: </label>
+    <input id="firstname" type="text" name="firstname"><br>
+    <label for="lastname">last name: </label>
+    <input id="lastname" type="text" name="lastname"><br>
+    <label for="project_title">project title: </label>
+    <select name="project_title">
+    	<option value="hotstar">hotstar</option>
+    	<option value="youtube">youtube</option>
+    	<option value="discovery">discovery</option>
+    	<option value="disney">disney</option>
+  	</select><br><br>
+    <label for="groupname">groupname: </label>
+    <select name="groupname">
+        <option value="NORMAL_USER">Normal User</option>
+        <option value="SUPERADMIN">Superadmin</option>
+    </select><br><br>
+	<input type="submit" value="submit">
+	</form>
+
+</body>
+</html>
