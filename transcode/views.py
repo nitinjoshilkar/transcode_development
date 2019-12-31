@@ -175,6 +175,9 @@ def transcode_data(request):
 	    partial_clipping = params.get('partial_clipping')
 	    input_file_path_mp4= params.get('input_file_path_mp4')
 	    audio_tracks= params.get('audio_tracks')
+	    data = params.get('data')
+	    audio_house_format = params.get('audio_house_format')
+	    mediainfo = params.get('mediainfo')
 	except Exception as e:
 	    print(e)
 	    return Response({'Error': "Invalid parameter"}, status="400")
@@ -210,6 +213,10 @@ def transcode_data(request):
 	    transcode_data.partial_clipping = partial_clipping
 	    transcode_data.input_file_path_mp4 = input_file_path_mp4
 	    transcode_data.audio_tracks = audio_tracks
+	    transcode_data.data = data
+	    transcode_data.originalMessage = params
+	    transcode_data.audio_house_format = audio_house_format
+	    transcode_data.mediainfo = mediainfo
 	    transcode_data.save()
 	    job_status=transcode_data.job_status
 	    print("data added Successfully")
@@ -251,9 +258,17 @@ def transcode_detail(request):
 		job_id = job_data.job_id
 		job_status = job_data.job_status
 		job_starttime= job_data.job_starttime
+		audio_tracks = job_data.audio_tracks
+		mediainfo = job_data.mediainfo
+		data = job_data.data
+		originalMessage= job_data.originalMessage
 		print("job startime:",job_starttime)
 		print("job_id:",job_id)
 		print("job_status:",job_status)
+		print("audio_tracks:",audio_tracks)
+		print("mediainfo:",mediainfo)
+		print("data:",data)
+		print("original message:",originalMessage)
 	except Exception as e:
 		print(e)
 		return Response({'Error': "Job id doesn't exists"}, status="400")

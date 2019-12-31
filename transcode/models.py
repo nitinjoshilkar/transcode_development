@@ -20,6 +20,7 @@ logger.setLevel(logging.DEBUG)
 
 class Transcode(Document):
 
+    hostname = StringField(default='')
     job_id = StringField(default='')
     job_status = IntField(default=0)
     job_action = StringField(default='')
@@ -35,18 +36,25 @@ class Transcode(Document):
 
     upload_from = StringField(default='')
     upload_type =StringField(default='')
+    error = StringField(default=None)
+    data = DictField(default='')
 
     asset_type = StringField(default='')
     is_mxf = BooleanField(default=False)
+    mediainfo = DictField(default='')
+    audio_house_format = ListField(default='')
+    originalMessage = DictField(default='')
+
     shape_wav_id = StringField(default='')
     shape_app_id = StringField(default='')
     shape_web_id = StringField(default='')
     shape_master_id = StringField(default='')
     shape_hls_id = StringField(default='')
+
     thumbnail = StringField(default='')
     thumbnail_preview = StringField(default='')
     partial_clipping = ListField(DictField())
-    audio_tracks = ListField(StringField())
+    audio_tracks = ListField(DictField())
     input_file_path_mp4 = StringField(default='')
     job_starttime = DateTimeField(default=timezone.now())
     job_endtime = DateTimeField(default=timezone.now())
@@ -83,14 +91,15 @@ class Transcode(Document):
         print("Modified at:",modified_at)
         return {'job_id':document.job_id,'job_status': document.job_status}
 
-
-    
-
-
 signals.post_save.connect(Transcode.post_save,sender=Transcode)
 signals.pre_save.connect(Transcode.pre_save,sender=Transcode)
 #signals.pre_init.connect(Transcode.pre_init,sender=Transcode)
 #signals.pre_save_post_validation.connect(Transcode.pre_save_post_validation,sender=Transcode,weak=False)
 
+class Machines(Document):
+
+    hostname=StringField(required=True)
+    status=IntField(required=True,default=0)
+    alloted_jobs=IntField(max_value=4)
 
 

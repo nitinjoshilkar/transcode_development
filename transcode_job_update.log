@@ -281,3 +281,59 @@
 2019-12-24 12:53:38,576 Not Found: /img_avatar2.png
 2019-12-24 12:56:08,333 Not Found: /img_avatar2.png
 2019-12-24 12:57:06,476 Bad Request: /api/transcode/job_id/
+2019-12-30 12:58:12,611 Not Found: /favicon.ico
+2019-12-30 12:58:19,667 Not Found: /img_avatar2.png
+2019-12-30 12:58:19,817 Not Found: /favicon.ico
+2019-12-30 15:40:57,193 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2019-12-31 11:14:02,703 /home/nithin/projects/Contido_Transcode/Contido_Transcode/models.py changed, reloading.
+2019-12-31 11:16:36,862 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:18:17,772 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:19:45,247 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:20:48,300 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:22:00,532 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:22:13,478 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:22:40,327 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:29:33,084 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:30:49,332 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:30:57,123 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:32:16,409 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:32:39,159 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:32:59,848 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:33:49,139 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:33:52,634 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:33:59,335 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:34:16,948 job id: TRD2 updated
+2019-12-31 11:34:17,079 Bad Request: /api/transcode/add/
+2019-12-31 11:35:46,685 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:36:07,553 job id: TRD2 updated
+2019-12-31 11:36:07,582 Bad Request: /api/transcode/add/
+2019-12-31 11:42:55,653 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:42:59,017 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:43:02,558 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:43:04,917 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:43:17,802 Bad Request: /api/transcode/add/
+2019-12-31 11:43:56,531 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:43:58,809 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:44:04,162 job id: TRD2 updated
+2019-12-31 11:44:04,168 Bad Request: /api/transcode/add/
+2019-12-31 11:45:16,311 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:45:18,572 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:45:23,645 job id: TRD2 updated
+2019-12-31 11:45:23,680 Bad Request: /api/transcode/add/
+2019-12-31 11:45:51,394 job id: TRD2 updated
+2019-12-31 11:45:51,397 Bad Request: /api/transcode/add/
+2019-12-31 11:47:06,346 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:47:09,697 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:47:19,772 job id: TRD2 updated
+2019-12-31 11:47:19,789 Bad Request: /api/transcode/add/
+2019-12-31 11:48:43,573 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 11:50:20,868 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:50:40,383 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:50:47,392 job id: TRD2 updated
+2019-12-31 11:52:26,803 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:53:46,550 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:53:51,983 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 11:55:50,339 job id: TRD3 updated
+2019-12-31 11:57:54,355 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2019-12-31 12:27:00,720 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2019-12-31 12:35:04,897 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
