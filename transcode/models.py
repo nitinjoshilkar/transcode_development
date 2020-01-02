@@ -100,6 +100,6 @@ class Machines(Document):
 
     hostname=StringField(required=True)
     status=IntField(required=True,default=0)
-    alloted_jobs=IntField(max_value=4)
+    alloted_jobs=IntField(max_value=4,default=0)
 
 
