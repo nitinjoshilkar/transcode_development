@@ -338,3 +338,179 @@
 2019-12-31 12:27:00,720 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
 2019-12-31 12:35:04,897 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
 2019-12-31 14:49:25,130 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 11:44:50,163 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 13:17:05,004 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 150, in transcode_data
+    params= json.loads(request.body)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2020-01-02 13:17:38,142 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 150, in transcode_data
+    params= json.loads(request.body)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2020-01-02 13:18:03,280 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 150, in transcode_data
+    params= json.loads(request.body)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2020-01-02 13:22:58,771 job id: TRD4 updated
+2020-01-02 13:24:04,484 Method Not Allowed: /api/transcode/add/
+2020-01-02 13:24:05,130 Not Found: /favicon.ico
+2020-01-02 13:25:05,468 job id: TRD5 updated
+2020-01-02 13:25:48,642 job id: TRD6 updated
+2020-01-02 13:28:46,065 job id: TRD7 updated
+2020-01-02 13:36:49,054 job id: TRD8 updated
+2020-01-02 13:40:14,508 job id: TRD9 updated
+2020-01-02 13:40:16,167 job id: TRD10 updated
+2020-01-02 13:40:21,165 job id: TRD11 updated
+2020-01-02 13:40:22,001 job id: TRD12 updated
+2020-01-02 13:40:22,503 job id: TRD13 updated
+2020-01-02 13:40:23,018 job id: TRD14 updated
+2020-01-02 13:40:23,634 job id: TRD15 updated
+2020-01-02 13:47:48,500 job id: TRD16 updated
+2020-01-02 13:47:48,503 Bad Request: /api/transcode/add/
+2020-01-02 13:48:12,639 job id: TRD16 updated
+2020-01-02 13:48:12,641 Bad Request: /api/transcode/add/
+2020-01-02 13:52:31,716 job id: TRD1 updated
+2020-01-02 13:52:31,721 Bad Request: /api/transcode/add/
+2020-01-02 13:55:08,844 Not Found: /api/transcode/
+2020-01-02 13:55:46,393 Not Found: /api/transcode/home
+2020-01-02 13:56:12,069 Not Found: /api/transcode/job_id/TRD7
+2020-01-02 13:57:03,334 Not Found: /img_avatar2.png
+2020-01-02 13:58:00,968 Not Found: /img_avatar2.png
+2020-01-02 13:58:11,135 Not Found: /api
+2020-01-02 14:00:15,054 Method Not Allowed: /api/transcode/add/
+2020-01-02 14:00:24,396 Not Found: /api
+2020-01-02 14:00:32,405 Method Not Allowed: /api/transcode/add/
+2020-01-02 14:01:43,532 Not Found: /img_avatar2.png
+2020-01-02 14:01:44,080 Not Found: /favicon.ico
+2020-01-02 14:45:54,333 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 14:48:03,462 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 14:52:34,605 Bad Request: /api/transcode/add/
+2020-01-02 14:55:35,739 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:04:41,193 job id: TRD1 updated
+2020-01-02 15:04:41,262 Bad Request: /api/transcode/add/
+2020-01-02 15:07:24,399 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:07:31,342 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:08:00,277 job id: TRD1 updated
+2020-01-02 15:08:00,288 Bad Request: /api/transcode/add/
+2020-01-02 15:08:02,316 job id: TRD1 updated
+2020-01-02 15:08:02,318 Bad Request: /api/transcode/add/
+2020-01-02 15:12:06,435 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:13:51,383 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:16:37,737 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:17:24,727 job id: TRD1 updated
+2020-01-02 15:17:24,987 Bad Request: /api/transcode/add/
+2020-01-02 15:19:00,773 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:41:03,541 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:42:10,863 job id: TRD1 updated
+2020-01-02 15:42:11,829 Bad Request: /api/transcode/add/
+2020-01-02 15:44:19,427 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:44:41,675 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:45:04,232 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:45:36,093 job id: TRD1 updated
+2020-01-02 15:45:37,402 Bad Request: /api/transcode/add/
+2020-01-02 15:48:02,558 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:48:27,558 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:48:29,962 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:49:07,383 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:49:10,399 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:49:20,831 job id: TRD1 updated
+2020-01-02 15:52:25,253 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:52:50,658 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:53:34,704 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:53:56,104 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-02 15:53:59,550 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 15:54:12,192 job id: TRD2 updated
+2020-01-02 15:55:20,550 job id: TRD3 updated
+2020-01-02 15:55:23,713 job id: TRD4 updated
+2020-01-02 16:07:00,439 job id: TRD5 updated
+2020-01-02 17:00:37,519 Bad Request: /api/transcode/job_id/
+2020-01-02 17:00:49,124 Bad Request: /api/transcode/job_id/
+2020-01-02 17:01:15,412 Bad Request: /api/transcode/job_id/
+2020-01-02 17:01:46,998 Bad Request: /api/transcode/job_id/
+2020-01-02 17:07:51,320 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 17:08:19,506 Bad Request: /api/transcode/job_id/
+2020-01-02 17:09:30,450 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 18:49:42,796 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-02 18:49:45,364 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-02 18:50:00,701 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.

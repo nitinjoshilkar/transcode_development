@@ -1,0 +1,15 @@
+blinker==1.4
+cffi==1.13.2
+cryptography==2.8
+Django==2.2.6
+django-mongoengine==0.3.3
+djangorestframework==3.10.3
+dnspython==1.16.0
+jwt==0.6.1
+mongoengine==0.18.2
+pycparser==2.19
+pymongo==3.8.0
+python-decouple==3.1
+pytz==2019.3
+six==1.13.0
+sqlparse==0.3.0

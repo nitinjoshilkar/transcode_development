@@ -37,13 +37,13 @@ class Transcode(Document):
     upload_from = StringField(default='')
     upload_type =StringField(default='')
     error = StringField(default=None)
-    data = DictField(default='')
+    #data = DictField(default=None)
 
     asset_type = StringField(default='')
     is_mxf = BooleanField(default=False)
-    mediainfo = DictField(default='')
-    audio_house_format = ListField(default='')
-    originalMessage = DictField(default='')
+    mediainfo = DictField(default={})
+    audio_house_format = ListField(default=[])
+    #originalMessage = DictField(default='')
 
     shape_wav_id = StringField(default='')
     shape_app_id = StringField(default='')
