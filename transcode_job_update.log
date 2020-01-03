@@ -514,3 +514,5 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2020-01-02 18:49:42,796 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
 2020-01-02 18:49:45,364 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
 2020-01-02 18:50:00,701 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-03 15:42:04,016 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-03 15:42:21,734 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
