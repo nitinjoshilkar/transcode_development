@@ -699,3 +699,736 @@ ValueError: time data '2020-01-06T12:38:48Z' does not match format '%Y-%m-%dT%H:
 2020-01-06 15:31:22,061 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
 2020-01-06 15:32:29,873 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
 2020-01-06 15:34:10,373 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:46:19,395 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:53:26,265 /home/nithin/projects/Contido_Transcode/Contido_Transcode/urls.py changed, reloading.
+2020-01-06 15:53:30,515 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-06 15:59:19,863 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:00:33,224 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:01:22,811 job id: TRD6 updated
+2020-01-06 16:01:23,015 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:03:36,588 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:20:31,864 job id: TRD7 updated
+2020-01-06 16:20:31,980 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:21:00,223 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:21:12,309 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:21:24,150 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:21:43,687 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:23:52,843 job id: TRD8 updated
+2020-01-06 16:23:52,961 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:24:09,008 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:24:38,368 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:24:47,006 job id: TRD9 updated
+2020-01-06 16:24:47,128 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:25:49,580 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:26:09,276 job id: TRD10 updated
+2020-01-06 16:26:09,418 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:27:39,229 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:28:01,317 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:28:04,820 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-06 16:28:10,356 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:28:15,870 job id: TRD11 updated
+2020-01-06 16:28:15,998 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:29:34,888 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:30:03,240 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:30:31,760 job id: TRD12 updated
+2020-01-06 16:30:31,881 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:34:46,961 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:35:20,909 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:36:07,619 job id: TRD13 updated
+2020-01-06 16:36:07,730 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 16:36:41,840 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:38:15,844 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:38:20,528 job id: TRD14 updated
+2020-01-06 16:39:02,707 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 16:47:28,780 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:08:18,399 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:08:42,735 job id: TRD15 updated
+2020-01-06 17:08:43,067 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:09:19,309 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:09:40,251 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:09:48,152 job id: TRD16 updated
+2020-01-06 17:09:48,353 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:10:10,052 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:10:51,026 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:10:58,698 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:11:05,530 job id: TRD17 updated
+2020-01-06 17:11:05,755 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:11:42,535 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:12:09,420 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:12:21,965 job id: TRD18 updated
+2020-01-06 17:12:22,106 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:14:59,164 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:15:43,389 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:15:51,124 job id: TRD19 updated
+2020-01-06 17:15:51,146 Bad Request: /api/transcode/add/
+2020-01-06 17:16:36,610 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:16:59,251 job id: TRD20 updated
+2020-01-06 17:16:59,275 Bad Request: /api/transcode/add/
+2020-01-06 17:17:25,622 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:17:34,777 job id: TRD21 updated
+2020-01-06 17:17:34,808 Bad Request: /api/transcode/add/
+2020-01-06 17:19:15,104 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:19:25,185 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:19:47,019 job id: TRD22 updated
+2020-01-06 17:19:47,244 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:20:13,166 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:20:40,397 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:20:50,021 job id: TRD23 updated
+2020-01-06 17:20:50,063 Bad Request: /api/transcode/add/
+2020-01-06 17:22:10,689 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:22:29,345 job id: TRD24 updated
+2020-01-06 17:22:29,368 Bad Request: /api/transcode/add/
+2020-01-06 17:22:53,070 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:23:32,150 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:24:45,690 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:25:32,109 job id: TRD25 updated
+2020-01-06 17:25:32,267 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 17:25:49,706 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:25:55,223 job id: TRD26 updated
+2020-01-06 17:32:30,720 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:32:42,640 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:33:09,612 job id: TRD27 updated
+2020-01-06 17:33:09,640 Bad Request: /api/transcode/add/
+2020-01-06 17:38:06,297 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:38:10,845 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:38:17,441 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:38:24,309 job id: TRD28 updated
+2020-01-06 17:38:24,337 Bad Request: /api/transcode/add/
+2020-01-06 17:41:18,464 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:41:27,237 job id: TRD29 updated
+2020-01-06 17:41:27,264 Bad Request: /api/transcode/add/
+2020-01-06 17:42:29,985 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:42:40,931 job id: TRD30 updated
+2020-01-06 17:42:40,959 Bad Request: /api/transcode/add/
+2020-01-06 17:47:13,876 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:47:25,783 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:48:32,686 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 17:48:36,152 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:49:40,875 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:49:43,039 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 17:51:55,330 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:52:20,176 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:53:19,588 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:53:35,916 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 17:54:26,868 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 17:57:47,861 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 17:59:20,757 job id: TRD31 updated
+2020-01-06 17:59:20,885 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 18:05:12,916 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:05:19,562 job id: TRD32 updated
+2020-01-06 18:06:53,999 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:07:02,114 job id: TRD33 updated
+2020-01-06 18:10:13,356 job id: TRD1 updated
+2020-01-06 18:11:19,227 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:11:27,740 job id: TRD2 updated
+2020-01-06 18:17:57,488 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:18:25,843 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:18:33,516 job id: TRD3 updated
+2020-01-06 18:18:33,643 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 18:19:51,600 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:19:57,591 job id: TRD4 updated
+2020-01-06 18:19:57,712 Internal Server Error: /api/transcode/add/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib64/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib64/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2020-01-06 18:24:54,042 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:25:02,864 job id: TRD5 updated
+2020-01-06 18:26:38,237 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:26:50,402 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:26:56,249 job id: TRD6 updated
+2020-01-06 18:26:56,272 Bad Request: /api/transcode/add/
+2020-01-06 18:28:17,916 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 18:28:34,000 job id: TRD7 updated
+2020-01-06 18:28:34,028 Bad Request: /api/transcode/add/
+2020-01-06 18:29:01,237 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-06 18:29:04,408 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:29:09,013 job id: TRD8 updated
+2020-01-06 18:29:09,049 Bad Request: /api/transcode/add/
+2020-01-06 18:29:42,752 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:29:48,447 job id: TRD9 updated
+2020-01-06 18:29:48,474 Bad Request: /api/transcode/add/
+2020-01-06 18:29:59,443 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:30:02,364 Forbidden (CSRF token missing or incorrect.): /api/transcode/add/
+2020-01-06 18:30:10,454 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:32:16,679 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:32:52,212 job id: TRD10 updated
+2020-01-06 18:32:52,466 Bad Request: /api/transcode/add/
+2020-01-06 18:33:53,361 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:33:55,778 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:33:58,256 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:34:00,720 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:35:13,255 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:35:57,711 job id: TRD11 updated
+2020-01-06 18:35:57,748 Bad Request: /api/transcode/add/
+2020-01-06 18:39:11,984 job id: TRD12 updated
+2020-01-06 18:44:43,585 Method Not Allowed: /api/transcode/update/job/status/
+2020-01-06 18:44:51,205 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 350, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%SZ")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2020-01-06T18:39:07.556' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2020-01-06 18:46:11,444 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:46:22,635 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:47:50,275 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:48:09,837 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:48:13,213 Bad Request: /api/transcode/update/job/status/
+2020-01-06 18:48:29,513 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:48:33,919 Bad Request: /api/transcode/update/job/status/
+2020-01-06 18:48:42,975 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:48:50,225 Bad Request: /api/transcode/update/job/status/
+2020-01-06 18:49:26,560 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:49:37,081 Bad Request: /api/transcode/update/job/status/
+2020-01-06 18:51:25,765 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:51:30,501 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 351, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: .556
+2020-01-06 18:52:41,810 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:52:46,074 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 351, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime*1000, "%Y-%m-%dT%H:%M:%S")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: .5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.5562020-01-06T18:39:07.556
+2020-01-06 18:53:42,073 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 351, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime*1000, "%Y-%m-%dT%H:%M:%S")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: 2020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:07
+2020-01-06 18:54:01,335 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 18:57:00,729 job id: TRD13 updated
