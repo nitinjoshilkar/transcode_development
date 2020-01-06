@@ -516,3 +516,186 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2020-01-02 18:50:00,701 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
 2020-01-03 15:42:04,016 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
 2020-01-03 15:42:21,734 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-03 17:26:20,874 Not Found: /favicon.ico
+2020-01-06 12:59:47,322 Bad Request: /api/token/
+2020-01-06 13:00:39,420 Bad Request: /api/token/
+2020-01-06 13:04:42,863 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 13:20:53,795 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-06 13:22:21,121 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:23:47,603 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-06 14:24:54,483 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:24:57,078 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-06 14:25:04,820 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-06 14:26:16,012 Forbidden (CSRF token missing or incorrect.): /api/transcode/update/job/status/
+2020-01-06 14:26:32,946 /home/nithin/projects/Contido_Transcode/transcode/urls.py changed, reloading.
+2020-01-06 14:26:45,182 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:27:00,208 Forbidden (CSRF token missing or incorrect.): /api/transcode/update/job/status/
+2020-01-06 14:27:07,973 Forbidden (CSRF token missing or incorrect.): /api/transcode/update/job/status/
+2020-01-06 14:28:11,806 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:28:30,293 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:28:39,314 Bad Request: /api/transcode/update/job/status/
+2020-01-06 14:47:50,346 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:48:01,998 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-06 14:49:24,678 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:49:42,154 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:53:37,253 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:53:52,812 Bad Request: /api/transcode/update/job/status/
+2020-01-06 14:55:02,557 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:55:31,590 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:55:37,956 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 14:58:17,596 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:00:20,460 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:01:16,781 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:01:49,245 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:01:58,577 Bad Request: /api/transcode/update/job/status/
+2020-01-06 15:03:47,006 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:04:01,691 Bad Request: /api/transcode/update/job/status/
+2020-01-06 15:06:16,776 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:06:21,531 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:06:28,133 Bad Request: /api/transcode/update/job/status/
+2020-01-06 15:14:53,667 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:15:47,747 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:22:09,518 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:22:50,842 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:23:57,712 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:26:41,692 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:26:52,877 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:27:16,928 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:27:26,800 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 341, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S%z")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2020-01-06T12:38:48.255Z' does not match format '%Y-%m-%dT%H:%M:%S%z'
+2020-01-06 15:28:05,978 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:28:08,474 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:28:11,894 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 341, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S%Z")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2020-01-06T12:38:48.255Z' does not match format '%Y-%m-%dT%H:%M:%S%Z'
+2020-01-06 15:28:17,274 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 341, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S%Z")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2020-01-06T12:38:48.255Z' does not match format '%Y-%m-%dT%H:%M:%S%Z'
+2020-01-06 15:29:12,826 Internal Server Error: /api/transcode/update/job/status/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 341, in transcode_job_update_status
+    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S%Z")
+  File "/usr/lib64/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib64/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2020-01-06T12:38:48Z' does not match format '%Y-%m-%dT%H:%M:%S%Z'
+2020-01-06 15:30:35,427 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:31:22,061 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:32:29,873 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-06 15:34:10,373 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.

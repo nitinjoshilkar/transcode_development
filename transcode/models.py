@@ -56,6 +56,8 @@ class Transcode(Document):
     partial_clipping = ListField(DictField())
     audio_tracks = ListField(DictField())
     input_file_path_mp4 = StringField(default='')
+    response_formatter = ListField(default=[])    
+
     job_starttime = DateTimeField(default=timezone.now())
     job_endtime = DateTimeField(default=timezone.now())
     creation = DateTimeField(default=timezone.now())

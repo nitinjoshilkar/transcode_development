@@ -217,9 +217,19 @@ def transcode_data(request):
 	    #transcode_data.originalMessage = params
 	    transcode_data.audio_house_format = audio_house_format
 	    transcode_data.mediainfo = mediainfo
+	    transcode_data.response_formatter = [{	'end_point':'/api/transcode/update/job/status/',
+												'request_type':'POST',
+												'parameter':{'job_status':0,
+															'job_id':0,
+															'transcode_db_id':'11',
+															'job_start_time':datetime.datetime.now(),
+															'job_end_time':datetime.datetime.now()}
+															
+											}]
 	    transcode_data.save()
 	    job_status=transcode_data.job_status
 	    print("data added Successfully")
+
 	    return Response({'message': "success","Job ID":job_id,"Job_status":job_status}, status="200")
 	except Exception as e:
 		print(e)
@@ -259,12 +269,12 @@ def transcode_detail(request):
 		job_status = job_data.job_status
 		job_starttime= job_data.job_starttime
 		audio_tracks = job_data.audio_tracks
-		mediainfo = job_data.mediainfo
+		#mediainfo = job_data.mediainfo
 		print("job startime:",job_starttime)
 		print("job_id:",job_id)
 		print("job_status:",job_status)
 		print("audio_tracks:",audio_tracks)
-		print("mediainfo:",mediainfo)
+		#print("mediainfo:",mediainfo)
 	except Exception as e:
 		print(e)
 		return Response({'Error': "Job id doesn't exists"}, status="400")
@@ -306,4 +316,48 @@ def transcode_job_update(request):
 		return Response({'Error': "Job id doesn't exists"}, status="400")
 	signals.post_save.connect(Transcode.post_save, sender=Transcode)
 	return JsonResponse({'data':"OK","status":"OK"})
+
+{"job_status":0,
+"job_id":0,
+"transcode_db_id":"11",
+"job_start_time":"2020-01-03T12:38:48.255Z",
+"job_end_time":"2020-01-03T12:45:48.255Z"
+}
+
+@api_view(['POST'])
+def transcode_job_update_status(request):
+	params= json.loads(request.body)
+	if not params:
+	    return Response({'Error': "Please provide data"}, status="400")
+	try:
+		job_status= params.get("job_status",None)
+		job_id= params.get("job_id",None)
+		transcode_db_id = params.get("transcode_db_id",None)
+		job_starttime = params.get("job_start_time",None)
+		job_endtime = params.get("job_end_time",None)
+	except Exception as e:
+	    print(e)
+	    return Response({'Error': "Invalid parameter"}, status="400")
+	start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%SZ")
+	end_datetime= datetime.datetime.strptime(job_endtime, "%Y-%m-%dT%H:%M:%SZ")
+
+	try:
+		transcode = Transcode.objects.filter(id=transcode_db_id,job_id=job_id)
+
+		for transcode_data in transcode:
+			transcode_data.update(job_status=job_status)
+			transcode_data.update(job_id=job_id)
+			transcode_data.update(job_starttime=start_datetime)
+			transcode_data.update(job_endtime=end_datetime)
+		print(transcode_data.job_status)
+		print(transcode_data.job_id)
+		print(transcode_data.job_starttime)
+		print(transcode_data.job_endtime)
+
+	except Exception as e:
+		print(e)
+		return Response({'Error': "Transcode id doesn't exists"}, status="400")
+
+	return Response({"message": "success","data":'OK'},status="200")
+
 
