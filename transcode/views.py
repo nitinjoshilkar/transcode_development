@@ -149,7 +149,7 @@ def hello_world(request):
     return Response({"message": "Hello, world!"})
 
 @api_view(['POST'])
-#@is_token_required
+@is_token_required
 def transcode_data(request):
 
     params= json.loads(request.body)
@@ -304,7 +304,7 @@ def transcode_detail_webapi(request):
     return JsonResponse ({"data":transcode})
 
 @api_view(['POST'])
-#@is_token_required
+@is_token_required
 def transcode_job_update(request):
 
     params= json.loads(request.body)
@@ -338,6 +338,7 @@ def transcode_job_update(request):
 #}
 
 @api_view(['POST'])
+@is_token_required
 def transcode_job_update_status(request):
     params= json.loads(request.body)
     if not params:
