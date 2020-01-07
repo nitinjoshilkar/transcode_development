@@ -1432,3 +1432,340 @@ Traceback (most recent call last):
 ValueError: unconverted data remains: 2020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:072020-01-06T18:39:07
 2020-01-06 18:54:01,335 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
 2020-01-06 18:57:00,729 job id: TRD13 updated
+2020-01-06 19:03:18,359 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 11:41:00,600 Not Found: /favicon.ico
+2020-01-07 12:39:45,985 job id: TRD1 updated
+2020-01-07 12:42:55,910 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-07 12:43:17,472 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-07 12:44:05,116 job id: TRD2 updated
+2020-01-07 12:46:09,354 Method Not Allowed: /api/transcode/update/job/status/
+2020-01-07 12:46:42,393 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 12:47:02,911 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 12:48:39,535 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 12:48:57,167 Bad Request: /api/transcode/update/job/status/
+2020-01-07 12:50:13,643 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 12:50:24,622 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 12:51:39,537 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 12:52:35,134 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:32:59,645 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:33:47,756 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'LoginApi' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/usr/lib64/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'LoginApi' object has no attribute 'authenticate'
+2020-01-07 14:35:41,013 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:36:10,543 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:36:56,987 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:38:13,238 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:39:07,961 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:40:13,124 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 14:49:25,657 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 15:09:25,806 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 15:10:06,818 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:10:59,817 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 411, in initial
+    self.check_permissions(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+AttributeError: 'LoginApi' object has no attribute 'has_permission'
+2020-01-07 15:12:26,114 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:12:56,873 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:13:14,770 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:48:30,404 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:50:09,713 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:50:15,814 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 409, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/nithin/projects/Contido_Transcode/transcode/views.py", line 255, in transcode_detail
+    print(request.authorization)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'authorization'
+2020-01-07 15:50:45,153 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:51:13,333 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 15:55:39,242 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:00:27,478 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:04:46,842 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:05:17,844 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:05:20,189 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:05:22,687 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:05:28,010 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-07 16:06:15,250 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:06:18,629 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:06:32,828 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:06:47,903 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-07 16:07:58,577 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:08:51,117 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:09:35,142 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-07 16:21:55,280 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:21:59,713 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 16:22:33,384 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:22:43,028 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:22:48,387 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'function'>`
+2020-01-07 16:24:44,389 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'function'>`
+2020-01-07 16:27:29,647 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:27:54,835 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:28:34,262 Method Not Allowed: /api/transcode/job_id/
+2020-01-07 16:34:54,996 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:35:32,006 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:36:09,972 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:38:23,439 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:39:05,587 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:40:03,957 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:40:07,109 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-07 16:40:46,329 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:41:21,653 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:41:40,205 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:41:46,387 Internal Server Error: /api/transcode/job_id/
+Traceback (most recent call last):
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/nithin/environments/mongoenginedemo/lib/python3.7/site-packages/rest_framework/views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-07 16:46:27,733 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:46:34,457 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:52:52,773 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:52:55,039 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 16:58:21,852 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:01:57,526 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:04:08,771 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:04:20,751 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:08:37,354 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:08:40,953 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:09:49,854 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:10:47,061 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:11:30,163 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:12:50,574 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:14:18,010 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:15:31,023 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:15:33,453 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:15:36,969 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:16:21,286 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:16:31,420 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:16:46,462 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:17:39,053 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:18:18,673 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:18:58,345 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:20:38,098 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:20:45,936 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:21:44,095 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:21:49,684 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:22:41,829 Bad Request: /api/token/
+2020-01-07 17:24:39,798 Bad Request: /api/token/refresh/
+2020-01-07 17:25:39,798 Bad Request: /api/token/
+2020-01-07 17:27:05,545 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:27:29,470 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:27:58,650 job id: TRD3 updated
+2020-01-07 17:30:16,113 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:30:21,909 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:33:15,374 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:33:21,101 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:33:31,072 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:35:55,733 Bad Request: /api/transcode/job_id/
+2020-01-07 17:36:07,255 Bad Request: /api/transcode/job_id/
+2020-01-07 17:36:25,098 Bad Request: /api/transcode/job_id/
+2020-01-07 17:36:50,815 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:36:53,109 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:37:01,918 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-07 17:38:06,788 Method Not Allowed: /api/transcode/job_id/
+2020-01-07 17:40:45,067 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.
+2020-01-07 17:40:47,536 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:40:49,978 /home/nithin/projects/Contido_Transcode/Contido_Transcode/settings.py changed, reloading.
+2020-01-07 17:41:07,498 /home/nithin/projects/Contido_Transcode/transcode/models.py changed, reloading.
+2020-01-07 17:41:25,950 /home/nithin/projects/Contido_Transcode/transcode/views.py changed, reloading.
+2020-01-07 17:41:28,310 /home/nithin/projects/Contido_Transcode/Contido_Transcode/views.py changed, reloading.

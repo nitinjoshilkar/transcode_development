@@ -21,10 +21,12 @@ from jwt import (
 )
 
 from .helperFunctions import *
-from rest_framework.decorators import api_view,authentication_classes
+from rest_framework.decorators import api_view,authentication_classes,permission_classes
+from rest_framework.permissions import IsAuthenticated
 import json
 from Contido_Transcode.views import LoginApi
 from rest_framework.renderers import JSONRenderer
+from Contido_Transcode.views import is_token_required
 
 
 
@@ -147,7 +149,7 @@ def hello_world(request):
     return Response({"message": "Hello, world!"})
 
 @api_view(['POST'])
-#@renderer_classes([JSONRenderer])
+#@is_token_required
 def transcode_data(request):
 
     params= json.loads(request.body)
@@ -243,13 +245,14 @@ def transcode_data(request):
     except Exception as e:
         print(e)
         return Response({"error":"Invalid data"},status="400")
+from rest_framework.permissions import IsAuthenticated
 
 @api_view(['POST'])
-#@authentication_classes([LoginApi])
+@is_token_required
 def transcode_detail(request):
 
     params= json.loads(request.body)
-
+    #print(request.META['HTTP_AUTHORIZATION'])
     if not params:
         return Response({'Error': "Please provide data"}, status="400")
     try:
@@ -301,6 +304,7 @@ def transcode_detail_webapi(request):
     return JsonResponse ({"data":transcode})
 
 @api_view(['POST'])
+#@is_token_required
 def transcode_job_update(request):
 
     params= json.loads(request.body)
@@ -347,11 +351,12 @@ def transcode_job_update_status(request):
     except Exception as e:
         print(e)
         return Response({'Error': "Invalid parameter"}, status="400")
-    #try:
-    start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S")
-    end_datetime= datetime.datetime.strptime(job_endtime, "%Y-%m-%dT%H:%M:%S")
-    #except:
-    #    return Response({"Error":"Invalid datetime format"},status="400")
+    try:
+        start_datetime = datetime.datetime.strptime(job_starttime, "%Y-%m-%dT%H:%M:%S")
+        end_datetime= datetime.datetime.strptime(job_endtime, "%Y-%m-%dT%H:%M:%S")
+    except:
+        return Response({"Error":"Invalid datetime format"},status="400")
+    modified_at = datetime.datetime.now()
     try:
         transcode = Transcode.objects.filter(id=transcode_db_id,job_id=job_id)
 
@@ -360,11 +365,7 @@ def transcode_job_update_status(request):
             transcode_data.update(job_id=job_id)
             transcode_data.update(job_starttime=start_datetime)
             transcode_data.update(job_endtime=end_datetime)
-        #print(transcode_data.job_status)
-        #print(transcode_data.job_id)
-        #print(transcode_data.job_starttime)
-        #print(transcode_data.job_endtime)
-
+            transcode_data.update(modified_at=modified_at)
     except Exception as e:
         print(e)
         return Response({'Error': "Transcode id doesn't exists"}, status="400")

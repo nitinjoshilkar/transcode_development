@@ -566,11 +566,39 @@ def login_api_refresh(request):
               status="200",
               )
     
-    
-        
 
-
-        
-
-
+def is_token_required(function):
+    def wrap(request, *args, **kwargs):
+        token = request.META.get('HTTP_AUTHORIZATION',None)
+        try:
+            print("token used:",token.split()[1])
+            split_token= token.split()[1]
+            token_data=UserInfo.objects.filter(transcode_token=split_token)
+            for user_token in token_data:
+                print("expiry time:",int(user_token.api_expired_token_at.strftime('%s')))
+                expiry_time =int(user_token.api_expired_token_at.strftime('%s'))
+            current_time = int(datetime.datetime.now().timestamp())
+            data_current_time=datetime.datetime.fromtimestamp(current_time).strftime("%Y-%m-%d %H:%M:%S")
+            print("current time:",current_time)
+            if not token_data:
+                return Response({"error":'token not matched'})
+            elif current_time >= expiry_time:
+                return Response({"error":"token is expired"})
+            #return function(request, *args, **kwargs)   
+            #expiry_time = datetime.datetime.now()+ datetime.timedelta(hours=24)
+            #expirytime2=int(expiry_time.strftime('%s'))
+            #data_expirytime2= datetime.datetime.fromtimestamp(expirytime2).strftime("%Y-%m-%d %H:%M:%S")
+            #print("Expiry time",data_expirytime2)
+            # user.api_token_recreate == False
+            #if current_time > new_expire_time and api_token_recreate == False:
+            #    return Response({"Error":"Token is Expired"},status="400")
+            #if (current_time > new_token_created) and (current_time < new_expire_time):
+            #    return Response({"Error":"Token is already created. You can access api"},status="400")
+            #elif user_data.api_token:
+            #    return Response({"Error":"Use refresh token because one time token created already"},status="400")
+            
+            return function(request, *args, **kwargs)
+        except:
+            return Response({"error":"token not found. try after sometime"})
+    return wrap
 

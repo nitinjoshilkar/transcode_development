@@ -58,10 +58,10 @@ class Transcode(Document):
     input_file_path_mp4 = StringField(default='')
     response_formatter = ListField(default=[])    
 
-    job_starttime = DateTimeField(default=timezone.now())
-    job_endtime = DateTimeField(default=timezone.now())
-    creation = DateTimeField(default=timezone.now())
-    modified_at = DateTimeField(default=timezone.now())
+    job_starttime = DateTimeField(default=timezone.now().replace(microsecond=0))
+    job_endtime = DateTimeField(default=timezone.now().replace(microsecond=0))
+    creation = DateTimeField(default=timezone.now().replace(microsecond=0))
+    modified_at = DateTimeField(default=timezone.now().replace(microsecond=0))
 
 
     @classmethod
